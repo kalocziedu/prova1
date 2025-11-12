@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Global Veículos</title>
+  <meta name="description" content="Global Veículos - Compra, venda e aluguel de carros" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">PH <span>Imports</span></a>
+      <nav class="nav">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="btn-outline">Contato</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Encontre o carro perfeito. Fácil. Rápido. Seguro.</h1>
+          <p>Compra, venda e aluguel de veículos com garantia e atendimento personalizado.</p>
+          <div class="hero-actions">
+            <a href="#catalogo" class="btn">Ver catálogo</a>
+            <a href="#contato" class="btn btn-secondary">Fale conosco</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="imagens/c32e568a-3316-4136-8e99-aa429fcd159d.jpg" alt="Carros em exposição">
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="catalog container">
+      <h2>Catálogo em destaque</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="imagens/OIP.webp" alt="Sedan prata">
+          <div class="card-body">
+            <h3>Hillux SW4 2024</h3>
+            <p class="muted">Automático • 22.000 km • Diesel</p>
+            <p class="price">R$ 395.000</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="imagens/OIP.webp" alt="SUV vermelho">
+          <div class="card-body">
+            <h3>Porsche Macan 2022</h3>
+            <p class="muted">Automático • 39.000 km • Gasolina</p>
+            <p class="price">R$ 385.000</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="imagens/OIP.webp". alt="Hatch azul">
+          <div class="card-body">
+            <h3>Jetta GLI 2023</h3>
+            <p class="muted">Automático • 32.000 km • Gasolina</p>
+            <p class="price">R$ 227.990</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="servicos" class="services container">
+      <h2>Nossos serviços</h2>
+      <div class="grid-3">
+        <div class="service">
+          <h3>Compra e venda</h3>
+          <p>Avaliamos seu veículo e oferecemos as melhores condições.</p>
+        </div>
+        <div class="service">
+          <h3>Financiamento</h3>
+          <p>Parcerias com bancos para financiar seu carro com parcelas acessíveis.</p>
+        </div>
+        <div class="service">
+          <h3>Aluguel de longo prazo</h3>
+          <p>Planos corporativos e pessoais com seguro incluso.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="about container">
+      <h2>Sobre a PH Imports</h2>
+      <p>Há mais de 10 anos no mercado automotivo, oferecendo transparência e qualidade.</p>
+    </section>
+
+<section id="contato" class="contact container">
+  <h2>Fale conosco</h2>
+  <p>Entre em contato pelo WhatsApp:</p>
+  <a href="https://wa.me/5511988875154?text=Olá!%20Vim%20pelo%20site%20PH%20Imports." target="_blank" class="btn btn-whatsapp">
+    💬 Chamar no WhatsApp
+  </a>
+</section>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 PH Imports — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.mobile-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+
+<a href="https://wa.me/5511964511852" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+
+</body>
+</html>
